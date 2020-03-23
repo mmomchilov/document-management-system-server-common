@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Message handling implementation including message handler resolution and invocation</Description>
+    <Version>1.0.6</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Glasswall.Common.Logging" Version="1.2.1" />
+    <PackageReference Include="Glasswall.Kernel.Logging" Version="1.1.2" />
+    <PackageReference Include="Glasswall.Kernel.Message.Handling" Version="1.1.1" />
+    <PackageReference Include="Glasswall.Kernel.Reflection" Version="1.1.2" />
+  </ItemGroup>
+
+</Project>
