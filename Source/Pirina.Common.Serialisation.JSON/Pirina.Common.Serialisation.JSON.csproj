@@ -16,7 +16,7 @@
 
   <ItemGroup>
     <PackageReference Include="Glasswall.Common.Initialisation" Version="1.2.3" />
-    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
   </ItemGroup>
 
 </Project>
